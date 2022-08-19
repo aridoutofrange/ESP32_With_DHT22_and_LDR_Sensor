@@ -12,7 +12,7 @@
 <li>One Buzzer</li>
 
 ## Wiring Diagram
-<img alt="Wiring Diagram" src="https://i.ibb.co/DgKHYgf/Screenshot-555.png" width="70%" height="70%"
+<img alt="Wiring Diagram" src="https://i.ibb.co/DgKHYgf/Screenshot-555.png" width="70%" height="70%">
 
 ## Demonstration
 https://user-images.githubusercontent.com/107428291/185606398-061f4f78-4819-4451-a21a-ed0d034682bb.mp4
