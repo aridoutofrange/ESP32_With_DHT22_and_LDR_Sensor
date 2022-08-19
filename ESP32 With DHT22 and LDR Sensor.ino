@@ -1,3 +1,5 @@
+//aridoutofrange -- Ramadhirra Azzahra Putri
+
 //Libraries
 #include "DHTesp.h"
 #include <Wire.h>
@@ -52,7 +54,7 @@ void loop() {
  float humid = data.humidity; //Get humidity data
 
  if (temp < 30.00){
-   setColor(HIGH, LOW, HIGH); //Set color to green
+   setColor(HIGH, LOW, HIGH); //Set LED color to green
    noTone(buzzerPin);
    Serial.println("Normal Temperature");
    Serial.println("__________________");
@@ -65,7 +67,7 @@ void loop() {
   delay(1000);
  }
  else if (temp > 30.00 && temp < 50.00){
-   setColor(LOW, LOW, HIGH); //Set color to yellow
+   setColor(LOW, LOW, HIGH); //Set LED color to yellow
    noTone(buzzerPin);
    Serial.println("Okay Temperature");
    Serial.println("__________________");
@@ -78,7 +80,7 @@ void loop() {
   delay(1000);
  }
  else if (temp > 50.00){
-  setColor(LOW, HIGH, HIGH); //Set color to red
+  setColor(LOW, HIGH, HIGH); //Set LED color to red
   tone(buzzerPin, 500);
   Serial.println("Dangerous Temperature");
   Serial.println("__________________");
@@ -106,7 +108,7 @@ display.setTextSize(1);
 display.setTextColor(WHITE);
 display.setCursor(0, 10);
 
-display.println("Temp: " + String(temp, 2) + " C");
+display.println("Temp: " + String(temp, 2) + " \262C");
 display.display(); 
 
 display.setTextSize(1);
