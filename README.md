@@ -1,7 +1,7 @@
 # ESP32 With DHT22 and LDR Sensor
 
 ## Description
-ESP32 with DHT22, LDR sensor, and an OLED display to monitor temperature, humidity, including illuminance of a room.
+ESP32 board that's connected to DHT22 and LDR sensor, packed with an OLED display to monitor temperature, humidity, and illuminance of a room.
 
 ## Components Used
 <li>One ESP32</li>
