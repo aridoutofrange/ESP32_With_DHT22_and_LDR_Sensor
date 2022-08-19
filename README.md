@@ -5,12 +5,12 @@ ESP32 board that's connected to DHT22 and LDR sensor, packed with an OLED displa
 
 ## Components Used
 <li>One ESP32</li>
-<li>One DHT22 Sensor</li>
-<li>One LDR/Photoresistor Module</li>
+<li>One DHT22 sensor</li>
+<li>One LDR/Photoresistor module</li>
 <li>Three 10k ohms resistor</li>
 <li>One RGB LED</li>
-<li>One SSD1306 OLED Display</li>
-<li>One Buzzer</li>
+<li>One SSD1306 OLED display</li>
+<li>One buzzer</li>
 
 ## Wiring Diagram
 <img alt="Wiring Diagram" src="https://i.ibb.co/DgKHYgf/Screenshot-555.png" width="70%" height="70%">
